@@ -1,3 +1,11 @@
+
+app/**/*.js
+app/**/*.map
+bower_components
+aot/*
+dist/*
+yarn.lock
+
 # Logs
 logs
 *.log

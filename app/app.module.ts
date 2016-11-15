@@ -7,5 +7,6 @@ import { HeroDetailComponent } from './hero-detail.component';
   imports:      [ BrowserModule, FormsModule ],
   declarations: [AppComponent, HeroDetailComponent],
   bootstrap: [AppComponent]
+  
 })
 export class AppModule { }

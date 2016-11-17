@@ -6,6 +6,6 @@ import { HEROES } from './mock-heroes';
 @Injectable()
 export class HeroService {
     getHeroes(): Promise<any> {
-        return Promise.reject("oops");
+        return Promise.resolve(HEROES);
     }
 }

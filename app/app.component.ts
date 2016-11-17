@@ -85,7 +85,7 @@ export class AppComponent implements OnInit {
     this.heroService.getHeroes()
       .then(heroes => this.heroes = heroes)
       .catch(message => console.log(message));
-  }
+  } 
 
   onSelect(hero: Hero): void {
     this.selectedHero = hero;
